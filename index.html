@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+       <ul class="nav-links">
+        <li class="active"><a href="#"></a>HOME</li>
+        <li><a href="#"></a>TOURS</li>
+        <li><a href="#"></a>EXPLORE</li>
+        <li><a href="#"></a>ABOUT</li>
+        <li class="ctn"><a href="#"></a>CONTACT</li>
+       </ul>
+       <img src="images/menu button.webp" class="menu-btn" alt="">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Eplore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/pexels-saikat-ghosh-914128.jpg" alt="camp photo">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ad nesciunt architecto aliquam consequatur dolor.</p>
+              <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div>
+                <div class="col">
+                    <img src="images/pexels-suliman-sallehi-1822458.jpg" alt="camp photo">
+                    <h4>Walking Holidays</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ad nesciunt architecto aliquam consequatur dolor.</p>
+                  <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet voluptatibus harum odit quo sequi enim eligendi officiis sint omnis! Eveniet harum suscipit fuga nisi similique.</p>
+         <a href="#" class="ctn">Learn More</a>
+        </div>
+        
+    </section>
+
+    <section class="Tours">
+<div class="row">
+    <div class="col content-col">
+        <h1>UPCOMING TOURS & DESTINATION</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem magnam maiores similique, dolores animi perspiciatis aut doloribus quae iste sequi?
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+    <div class="col image-col">
+        <div class="image-gallery">
+            <img src="images/pexels-andrei-tanase-1271619.jpg" alt="camp">
+            <img src="images/pexels-oziel-gómez-868097.jpg" alt="moutain">
+            <img src="images/pexels-saikat-ghosh-914128.jpg" alt="climb">
+            <img src="images/pexels-suliman-sallehi-1822458.jpg" alt="hike">
+        </div>
+    </div>
+</div>
+    </section>
+
+   <section class="footer">
+    <footer class="main-footer">
+<p>93b herbert macualay road,yaba, lagos</p>
+<p>Copyright@2019</p>
+    </footer>
+   </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+        navlinks.classlist.toggle('mobile-menu')
+    })
+    </script>
+</body>
+</html>
